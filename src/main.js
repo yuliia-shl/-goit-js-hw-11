@@ -51,6 +51,7 @@ function fetchImages(searchValue) {
             'Sorry, there are no images matching your search query. Please try again!',
           position: 'topRight',
         });
+        loader.classList.add('hidden');
       } else {
         createGallery(data.hits);
         lightbox.refresh();

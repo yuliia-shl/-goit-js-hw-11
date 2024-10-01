@@ -1,3 +1,10 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  line-height: 1.33;
+}
+
 h1,
 h2,
 h3,

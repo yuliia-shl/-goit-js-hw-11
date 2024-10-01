@@ -60,7 +60,7 @@ function fetchImages(searchValue) {
       }
     })
     .catch(error => {
-      console.error('Помилка:', error);
+      loader.classList.add('hidden');
       iziToast.error({
         message: 'Something went wrong! Please try again later.',
         position: 'topRight',
